@@ -1,0 +1,163 @@
+/* Impostiamo i margini di tutti gli elementi della pagina a 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* impostiamo le regole per il body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: #eaeded;
+    padding: 32px;
+}
+/* Settiamo colore e grandezza del primo div con logo amazon */
+.topdark {
+    background-color: #222f3e;
+    padding: 8px 32px;
+}
+.topdark img {
+    height: 40px;
+}
+/* Settiamo la barra nav e il colore del testo */
+nav {
+    background-color: #364759;
+    padding: 8px 32px;
+}
+nav span {
+    color: #eaeded;
+    margin-right: 16px;
+    font-weight: 400;
+}
+/* settiamo la barra arancione */
+.orangebar {
+    background-color: #f56600;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 32px;
+}
+.orangebar span {
+    color: #eaeded;
+}
+/* settiamo il box verde prima dei vari box immagini */
+.greenbar {
+    background-color: #469576;
+    text-align: center;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+#giftimg {
+    background-image: url(assets/bg-image.png);
+    height: 100px;
+}
+.greenbar h1 , h3 {
+    color: #eaeded;
+}
+.bg-white {
+    background-color: white;
+}
+.whitebox1 {
+    background-color: white;
+    text-align: center;
+}
+.titlediv {
+    text-align: left;
+    padding: 16px 16px 0 24px;
+}
+.img {
+    width: 310px;
+    height: 370px;
+    object-fit: cover;
+    margin: 16px;
+    border-radius: 30px;
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.5)
+}
+.title {
+    font-size: 23px;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #007185;
+    margin-left: 16px;
+}
+.img-group {
+    width: 24%;
+    display: inline-block;
+}
+.quadimg {
+  width: 48%;
+  display: inline-block;
+  position: relative;
+}
+.quadimg img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.quadimg p {
+    margin: 0;
+    font-size: 12px;
+}
+.quadimg img.bottom-right-corner {
+    position: absolute;
+    right: -5px;
+    bottom: 0px;
+    width: 40px;
+    height: 40px;
+  }
+.img-boxs {
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.img-box-header {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 32px;
+}
+.img-body {
+    padding: 0 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+#bigimg {
+    width: 100%;
+}
+.img-row {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.imgbox-footer {
+    font-size: 15px;
+    padding: 8px 32px;
+    color: #007185;
+}
+.boxbottom {
+    text-align: center;
+    margin-top: 32px;
+}
+#backtotop {
+    padding: 16px;
+    text-align: center;
+}
+#backtotop a {
+    font-weight: 600;
+}
+.whitetext {
+    color: white;
+}
+.bgdarkbottom {
+    background-color: #222f3e;
+}
+.bg-light-dark {
+    background-color: #364759;
+}
+#footerlogo {
+    text-align: center;
+    padding: 48px;
+}
