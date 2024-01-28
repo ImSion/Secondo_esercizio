@@ -96,6 +96,7 @@ nav span {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.5)
 }
 .quadimg p {
     margin: 0;
@@ -160,4 +161,7 @@ nav span {
 #footerlogo {
     text-align: center;
     padding: 48px;
+}
+#footerlogo img {
+    height: 60px;
 }
